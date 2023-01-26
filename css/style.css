@@ -1,0 +1,28 @@
+
+input {
+    width: 100%;
+    padding: 5px;
+    height: 50px;
+    margin-top: 10px;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+}
+
+.grid-container{
+    display: grid;
+  grid-template-columns: auto auto ;
+  gap: 90px;
+  padding: 10px;
+  align-items: center;
+  margin-top: 72px;
+  margin-bottom: 72px;
+}
+.grid-item2{
+    line-height: 50px;margin-right: 90px;
+}
+.loginbutton{
+    display: flex; justify-content: space-between; align-items:center ;margin-top: 10px;
+}
+.loginbutton button{
+    height: 45px;width: 138px;border-radius: 20px;background: #C8242F; border: none;color: white;
+}
